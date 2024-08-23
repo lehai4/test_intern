@@ -1,0 +1,26 @@
+.product-top {
+  position: relative;
+  background: url("../assets/image/bes-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 100%;
+}
+.introduction {
+  position: relative;
+  background: url("@/assets/image/introduction-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fefbfb;
+}
